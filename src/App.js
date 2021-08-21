@@ -9,8 +9,8 @@ export default  function App() {
       <div className="container">
  
   <Weather />
-  <footer> 
-    Tis project was coded by Azam and is open-soursed on  {""}
+  <footer > 
+    This project was coded by Azam and is open-soursed on  {""}
     <a href="https://github.com/Azam2012/react-weather-app" target="_blank">
 GitHub
     </a>
