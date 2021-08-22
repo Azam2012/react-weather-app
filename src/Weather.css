@@ -32,7 +32,9 @@
       color: #AF329E ;
 
   }
-  .weather img {
+  .weather  canvas {
+      margin-right: 5px;
+      margin-top: 5px;
       margin-bottom: 5px;
       width: 74px;
   }
