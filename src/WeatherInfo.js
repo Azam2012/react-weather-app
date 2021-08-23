@@ -1,4 +1,3 @@
-import { func } from "prop-types";
 import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon"
@@ -13,7 +12,7 @@ export default function WeatherInfo (props) {
            
             <ul> 
                 <li> <FormattedDate  data={props.data.date} /></li>
-              <li className= "text-capitalize" >{props.data. description} </li>
+              <li className= "text-capitalize" >{props.data.description} </li>
             </ul>
                   </div>
                 
