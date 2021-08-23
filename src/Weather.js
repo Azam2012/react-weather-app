@@ -7,11 +7,10 @@ import "./Weather.css";
 export default function Weather(props) {
     const [weatherData , setWeatherData] = useState({ready: false})
     const [city, setCity] = useState (props.defaultCity)
+       const [city, setCity] = useState(props.defaultCity)
 
-    const [city, setCity] = useState(props.defaultCity)
-    
 
-function handleResponse(response) {
+    function handleResponse(response) {
     setWeatherData({
         ready: true,
         date : new Date( response.data.dt * 1000) ,
