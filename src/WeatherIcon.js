@@ -5,8 +5,8 @@ export default function WeatherIcon(props) {
   const codeMapping = {
     "01d": "CLEAR_DAY",
     "01n": "CLEAR_NIGHT",
-    "04d": "FEW_CLOUDS",
-    "04n": "FEW_CLOUDS",
+    "02d": "FEW_CLOUDS",
+    "02n": "FEW_CLOUDS",
     "03d": "FEW_CLOUDS",
     "03n": "FEW_CLOUDS",
     "04d": "CLOUDY",
